@@ -1,3 +1,36 @@
+/*---------------------- Page d'intro ----------------------------*/
+.content{
+  position: relative;
+}
+.intro{
+  position: absolute;
+  z-index: 2;
+}
+.intro #gauche{
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  margin-top : -68px;
+  padding-left: 0px;
+
+}
+.intro #droite{
+  position: absolute;
+  z-index: 4;
+  height: 111.5%;
+  width: 120%;
+  margin-left: -104px;
+  margin-top : -68px;
+}
+.intro #focus{
+  position: absolute;
+  z-index: 5;
+  padding-top: 44%;
+  margin-left: -165px;
+}
+
+/*------------------------- INDEX -----------------------*/
+
 .container{
   padding-left: 0;
   padding-right: 0;

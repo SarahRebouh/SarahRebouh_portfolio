@@ -10,10 +10,13 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.ui.min.js"></script>
     </head>
     <body>
+
          <?php
              require_once "view/templates/header.php";
 
              if (isset($_GET['param_url'])) {
+             require_once "view/index.php";
+
         		if($_GET["param_url"] == "contact"){
         			 require_once "view/pages/contact.php";
     		    }
