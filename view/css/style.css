@@ -82,6 +82,37 @@ img#me{
   font-weight: bold;
   margin: 2% 2% 2% 2%;
 }
+/*----------------------- PAGE COMPETENCES ------------------------*/
+#menuCompet{
+  background-color: #7f7f7f;
+  height: 520px;
+}
+#bulle1{
+	width: 150px;
+	height: 150px;
+  margin-left: 10%;
+  margin-top: 10%;
+	background: #8e2d2e;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+#bulle1 p{
+  color: white;
+}
+#bulle2{
+	width: 150px;
+	height: 150px;
+  margin-left: 30%;
+  margin-top: 30%;
+	background: #8e2d2e;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+#bulle2 p{
+ color: white;
+}
 /*-------------------------- FOOTER -------------------------------*/
 .barrebotom{
   width: 100%;
