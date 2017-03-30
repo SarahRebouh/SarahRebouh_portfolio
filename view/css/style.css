@@ -1,4 +1,8 @@
 /*---------------------- Page d'intro ----------------------------*/
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
 .content{
   position: relative;
 }
@@ -27,6 +31,18 @@
   z-index: 5;
   padding-top: 44%;
   margin-left: -165px;
+}
+
+/*--- Keyframes pour bouton focus ---*/
+
+@keyframes rotate-center {
+  0% {transform: rotate(0)  }
+  100% {transform: rotate(360deg);}
+}
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	-moz-animation: rotate-center 0.6s ease-in-out both;
+	animation: rotate-center 0.6s ease-in-out both;
 }
 
 /*------------------------- INDEX -----------------------*/
@@ -62,7 +78,6 @@ h2#job{
 #me{
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 2%;
 }
 #hashtag{
  background-color: #7f7f7f;
@@ -77,9 +92,6 @@ h2#job{
   font-weight: bold;
   font-size: 160%;
   line-height: 85%;
-}
-img#me{
-  padding-bottom: 0px;
 }
 
 /*--------------------------- PAGE CONTACT ------------------------*/
@@ -153,20 +165,23 @@ img#me{
 footer {
   background-color: #C2C0C2;
 }
-footer li{
-  list-style-type: none;
+footer .row{
+  margin-right: 0;
+  margin-left: 0;
 }
-footer ul li{
+footer a{
+  list-style-type: none;
+  color: black;
   display: inline-block;
   font-size: 65%;
   margin: 0;
 }
-footer a{
-  color: black;
-}
 .icon{
-  width: 40%;
+  width: 50%;
+}
+#foot{
   padding-top: 2%;
+  padding-left: 5%;
 }
 #diplomes{
   padding-top: 5%;

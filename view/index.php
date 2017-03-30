@@ -1,14 +1,14 @@
-
+<!-- 
 <div class="intro">
   <img class="col-xs-6" src="view/images/gaucheHome.png" alt="" id="gauche">
   <img class="col-xs-6" src="view/images/droiteHome.png" alt="" id="droite">
-  <img src="view/images/focus.png" alt="" id="focus">
-</div>
+  <img src="view/images/focus.png" alt="" id="focus" class="">
+</div> -->
 
 <div class="content">
 <div class="container">
   <img id="me" class="col-xs-12" src="view/images/sarahrebouh.png" alt="">
-</div>
+
 
     <div class="col-xs-12" id="hashtag">
       <p>{{presse}}</p>
@@ -23,3 +23,5 @@
       <p>{{polyvalence}}</p>
     </div>
 </div>
+</div>
+<script src="view/js/animations.js" type="text/javascript"></script>

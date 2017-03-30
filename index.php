@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="view/css/style.css">
         <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.ui.min.js"></script>
     </head>
     <body>
@@ -15,32 +16,9 @@
              require_once "view/templates/header.php";
 
              if (isset($_GET['param_url'])) {
-             require_once "view/index.php";
+        
 
-        		if($_GET["param_url"] == "contact"){
-        			 require_once "view/pages/contact.php";
-    		    }
-                else if($_GET["param_url"] == "competences_menu"){
-        			 require_once "view/pages/competences_menu.php";
-    		    }
-                else if($_GET["param_url"] == "competences_journalisme"){
-        			 require_once "view/pages/competences_journalisme.php";
-    		    }
-                else if($_GET["param_url"] == "competences_dev"){
-        			 require_once "view/pages/competences_dev.php";
-    		    }
-                else if($_GET["param_url"] == "portfolio_menu"){
-        			 require_once "view/pages/portfolio_menu.php";
-    		    }
-                else if($_GET["param_url"] == "portfolio_journalisme"){
-        			 require_once "view/pages/portfolio_journalisme.php";
-    		    }
-                else if($_GET["param_url"] == "portfolio_dev"){
-        			 require_once "view/pages/portfolio_dev.php";
-    		    }
-                else if($_GET["param_url"] == "diplomes"){
-        			 require_once "view/pages/diplomes.php";
-    		    }
+                require_once "view/pages/".$_GET["param_url"].".php";
     		 }
             else{
                 require_once "view/index.php";

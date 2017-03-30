@@ -7,6 +7,4 @@
       <p>Développement web</p>
     </div>
   </div>
-
-
 </section>
