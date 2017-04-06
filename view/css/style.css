@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 /*---------------------- Page d'intro ----------------------------*/
 
 .row {
@@ -71,11 +74,6 @@
 #identity, #hashtag {
     text-align: center;
 }
-
-
-/*img{
- width: 100%;
-}*/
 
 #identity {
     background-color: #C2C0C2;
@@ -169,42 +167,94 @@ h2#job {
 }
 
 #bulle1 {
-    width: 150px;
-    height: 150px;
-    margin-left: 10%;
-    margin-top: 10%;
+    width: 180px;
+    height: 180px;
+    margin-top: 15%;
+    padding-top: 16%;
+    margin-left: 15%;
     background: #8e2d2e;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
 }
-
-#bulle1 p {
+#bulle1 a {
+    font-size: 120%;
+    padding-left: 45px;
     color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
-
 #bulle2 {
-    width: 150px;
-    height: 150px;
-    margin-left: 30%;
-    margin-top: 30%;
+    width: 180px;
+    height: 180px;
+    padding-top: 80px;
+    margin-left: 45%;
+    font-size: 120%;
     background: #8e2d2e;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
 }
 
-#bulle2 p {
+#bulle2 a {
     color: white;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*------------------------------------ competences dev -------------------*/
+#dev{
+    width: 25%;
+    height: 25%;
+}
+/*------------------------------- MENU PORTFOLIO -------------------*/
+
+#menuPortfolio{
+    background-color: #7f7f7f;
+    height: 520px;
+}
+#bulle3 {
+    width: 180px;
+    height: 180px;
+    margin-top: 15%;
+    padding-top: 16%;
+    margin-left: 50%;
+    background: #8e2d2e;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+#bulle3 a {
+    font-size: 120%;
+    padding-left: 45px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#bulle4 {
+    width: 180px;
+    height: 180px;
+    padding-top: 80px;
+    margin-left: 15%;
+    font-size: 120%;
+    background: #8e2d2e;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
 }
 
+#bulle4 a {
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /*-------------------------- FOOTER -------------------------------*/
 
 .barrebotom {
     width: 100%;
 }
-
 footer {
     background-color: #C2C0C2;
 }
