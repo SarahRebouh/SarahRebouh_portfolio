@@ -1,16 +1,18 @@
 //------------ Animation pour le bouton d'entrée focus sur page d'intro
 
 $('#focus').click(function(){
+    $("body").css("overflow-x", "hidden");
     $(this).addClass("rotate-center");
     $("#focus").delay(800).fadeTo("1", 0);
 
-    $('#gauche').delay(1000).animate({
-        'left' : "-=4300px" //moves left
-        });
-    $('#droite').delay(1000).animate({
-        'left' : "+=4300px" //moves left
-        });
+    $('#gauche').delay(900).animate({
+        'left' : "-4300px" //moves left
+    },3000);
+    $('#droite').delay(900).animate({
+        'left' : "+4300px" //moves left
+    }, 3000);
     setTimeout(function(){
             $(".intro").remove();
-    }, 2000);
+            $("body").css("overflow-x", "auto");
+    }, 5000);
 });

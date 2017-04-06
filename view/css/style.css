@@ -11,6 +11,7 @@
 
 .intro {
     z-index: 2;
+    overflow: hidden;
 }
 
 .intro #gauche {
@@ -41,7 +42,6 @@
     margin-top: 10%;
     margin-left: 22%;
 }
-
 
 /*--- Keyframes pour bouton focus ---*/
 
