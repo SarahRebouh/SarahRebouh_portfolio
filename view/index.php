@@ -1,9 +1,9 @@
-<!-- 
+
 <div class="intro">
   <img class="col-xs-6" src="view/images/gaucheHome.png" alt="" id="gauche">
-  <img class="col-xs-6" src="view/images/droiteHome.png" alt="" id="droite">
+  <img class="col-xs-5" src="view/images/droiteHome.png" alt="" id="droite">
   <img src="view/images/focus.png" alt="" id="focus" class="">
-</div> -->
+</div>
 
 <div class="content">
 <div class="container">

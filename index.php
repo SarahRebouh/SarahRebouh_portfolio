@@ -17,7 +17,6 @@
 
              if (isset($_GET['param_url'])) {
         
-
                 require_once "view/pages/".$_GET["param_url"].".php";
     		 }
             else{
