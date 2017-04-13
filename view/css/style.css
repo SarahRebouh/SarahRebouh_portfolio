@@ -45,7 +45,36 @@ a{
     margin-top: 10%;
     margin-left: 22%;
 }
-
+.presse{
+    /*display: none;*/
+}
+.com{
+    /*display: none;*/
+}
+.social{
+    /*display: none;*/
+}
+.photo{
+    /*display: none;*/
+}
+.voyage{
+    /*display: none;*/
+}
+.musique{
+    /*display: none;*/
+}
+.gastronomie{
+    /*display: none;*/
+}
+.sport{
+    /*display: none;*/
+}
+.humour{
+    /*display: none;*/
+}
+.polyvalence{
+    /*display: none;*/
+}
 /*--- Keyframes pour bouton focus ---*/
 
 @keyframes rotate-center {
@@ -63,7 +92,9 @@ a{
     animation: rotate-center 0.6s ease-in-out both;
 }
 
-
+#identity a{
+    text-decoration: none;
+}
 /*------------------------- INDEX -----------------------*/
 
 .container {
@@ -74,7 +105,9 @@ a{
 #identity, #hashtag {
     text-align: center;
 }
-
+#hashtag a {
+    text-decoration: none;
+}
 #identity {
     background-color: #C2C0C2;
 }
