@@ -9,7 +9,7 @@
     <img src="view/images/icons/dev/jquery.png" alt="" class="dev">
     <img src="view/images/icons/dev/mysql.png" alt="" class="dev">
     <img src="view/images/icons/dev/wordpress.png" alt="" class="dev">
-    <img src="view/images/icons/dev//prog_symfony.png" alt="" class="dev">
+    <img src="view/images/icons/dev/prog_symfony.png" alt="" class="dev">
     <img src="view/images/icons/dev/sass.png" alt="" class="dev">
     <img src="view/images/icons/dev/grunt.png" alt="" class="dev">
 </div>

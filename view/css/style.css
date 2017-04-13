@@ -206,6 +206,11 @@ h2#job {
 .dev{
     width: 100px;
     height: 100px;
+
+}
+.icons_dev{
+    background-color: #7f7f7f;
+    height: 520px;
 }
 
 
