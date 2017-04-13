@@ -145,7 +145,6 @@ h2#job {
 
 #form input {
     margin-bottom: 2%;
-    margin: 2% 2% 2% 2%;
 }
 
 #form button {
@@ -155,7 +154,6 @@ h2#job {
     color: white;
     background-color: #8e2d2e;
     font-weight: bold;
-    margin: 2% 2% 2% 2%;
 }
 
 
@@ -206,13 +204,25 @@ h2#job {
 .dev{
     width: 100px;
     height: 100px;
-
 }
 .icons_dev{
     background-color: #7f7f7f;
     height: 520px;
+    padding-top: 2%;
+    padding-left: 2%;
 }
-
+.icons_dev a{
+    text-decoration: none;
+}
+.icons_dev img{
+    margin: 0 auto;
+    display: block;
+}
+.icons_dev p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
 
 /*------------------------------- MENU PORTFOLIO -------------------*/
 

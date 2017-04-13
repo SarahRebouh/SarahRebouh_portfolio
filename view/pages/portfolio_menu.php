@@ -1,10 +1,10 @@
 <section>
   <div class="row" id="menuPortfolio">
-    <div class="index.php?param_url=portfolio_journalisme" id="bulle3">
-      <a href="#">Journalisme</a>
+    <div class="" id="bulle3">
+      <a href="index.php?param_url=portfolio_journalisme">Journalisme</a>
     </div>
-    <div class="index.php?param_url=portfolio_dev" id="bulle4">
-      <a href="#">Développement web</a>
+    <div class="" id="bulle4">
+      <a href="index.php?param_url=portfolio_dev">Développement web</a>
     </div>
   </div>
 </section>
