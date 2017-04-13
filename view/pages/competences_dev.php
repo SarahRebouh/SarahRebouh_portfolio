@@ -1,13 +1,15 @@
 <div class="icons_dev">
-    <img src="view/images/icons/dev/boot.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/css.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/git.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/html5.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/jquery.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/js.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/mysql.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/php.svg" alt="" id="dev">
-    <img src="view/images/icons/dev//prog_symfony.png" alt="" id="dev">
-    <img src="view/images/icons/dev/psd.svg" alt="" id="dev">
-    <img src="view/images/icons/dev/wordpress.svg" alt="" id="dev">
+    <img src="view/images/icons/dev/html5.png" alt="" class="dev">
+    <img src="view/images/icons/dev/css.png" alt="" class="dev">
+    <img src="view/images/icons/dev/psd.png" alt="" class="dev">
+    <img src="view/images/icons/dev/bootstrap.png" alt="" class="dev">
+    <img src="view/images/icons/dev/git.png" alt="" class="dev">
+    <img src="view/images/icons/dev/php.png" alt="" class="dev">
+    <img src="view/images/icons/dev/js.png" alt="" class="dev">
+    <img src="view/images/icons/dev/jquery.png" alt="" class="dev">
+    <img src="view/images/icons/dev/mysql.png" alt="" class="dev">
+    <img src="view/images/icons/dev/wordpress.png" alt="" class="dev">
+    <img src="view/images/icons/dev//prog_symfony.png" alt="" class="dev">
+    <img src="view/images/icons/dev/sass.png" alt="" class="dev">
+    <img src="view/images/icons/dev/grunt.png" alt="" class="dev">
 </div>

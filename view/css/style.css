@@ -202,11 +202,13 @@ h2#job {
     font-weight: bold;
     text-decoration: none;
 }
-/*------------------------------------ competences dev -------------------*/
-#dev{
-    width: 25%;
-    height: 25%;
+/*------------------------------------ Compétences dev -------------------*/
+.dev{
+    width: 100px;
+    height: 100px;
 }
+
+
 /*------------------------------- MENU PORTFOLIO -------------------*/
 
 #menuPortfolio{
