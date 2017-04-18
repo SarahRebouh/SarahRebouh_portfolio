@@ -30,5 +30,17 @@ var hastag = new Vue({
     sport:'#Football #Ski #Randonnée',
     humour:'#Humour #Convivialité',
     polyvalence:'#Polyvalence #Défis'
+    },
+})
+//---------------------------------------- Animations pour hashtag
+Vue.component('modal', {
+  template: '#modal-template'
+})
+
+// start app
+new Vue({
+  el: '#app',
+  data: {
+    showModal: false
   }
 })

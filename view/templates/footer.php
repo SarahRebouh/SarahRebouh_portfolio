@@ -1,5 +1,5 @@
 <div class="container">
-        <footer class="">
+    <footer class="">
         <div class="row" id="foot">
             <div class="col-xs-3">
                 <a class="icon" id="competences" href="index.php?param_url=competences_menu">

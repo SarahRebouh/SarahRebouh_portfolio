@@ -6,9 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="view/css/style.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.ui.min.js"></script>
     </head>
     <body>
 
@@ -16,7 +14,7 @@
              require_once "view/templates/header.php";
 
              if (isset($_GET['param_url'])) {
-        
+
                 require_once "view/pages/".$_GET["param_url"].".php";
     		 }
             else{

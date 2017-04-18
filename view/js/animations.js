@@ -14,5 +14,5 @@ $('#focus').click(function(){
     setTimeout(function(){
             $(".intro").remove();
             $("body").css("overflow-x", "auto");
-    }, 5000);
+    }, 2000);
 });

@@ -45,36 +45,109 @@ a{
     margin-top: 10%;
     margin-left: 22%;
 }
+.tag{
+    background-color: #7f7f7f;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    color: #8e2d2e;
+    font-size: 160%;
+    text-align: center;
+}
+.tag h2{
+    font-weight: bold;
+}
+.tag p {
+    font-size: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+/*--------------------- ANIMATION INDEX HASHTAG ----------*/
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+.modal-body {
+  margin: 20px 0;
+}
+.modal-default-button {
+  float: right;
+}
+.modal-enter {
+  opacity: 0;
+}
+.modal-leave-active {
+  opacity: 0;
+}
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#hashtag{
+    z-index: 10;
+    position: relative;
+}
 .presse{
-    /*display: none;*/
+
 }
 .com{
-    /*display: none;*/
+
 }
 .social{
-    /*display: none;*/
+
 }
 .photo{
-    /*display: none;*/
+
 }
 .voyage{
-    /*display: none;*/
+
 }
 .musique{
-    /*display: none;*/
-}
-.gastronomie{
-    /*display: none;*/
+
 }
 .sport{
-    /*display: none;*/
+
 }
 .humour{
-    /*display: none;*/
+
 }
 .polyvalence{
-    /*display: none;*/
+
 }
+
 /*--- Keyframes pour bouton focus ---*/
 
 @keyframes rotate-center {
@@ -301,14 +374,13 @@ h2#job {
 }
 
 /*-------------------------- FOOTER -------------------------------*/
-
-.barrebotom {
-    width: 100%;
-}
 footer {
     background-color: #C2C0C2;
 }
-
+/*.foot{
+    position: relative;
+    z-index: 100;
+}*/
 footer .row {
     margin-right: 0;
     margin-left: 0;
