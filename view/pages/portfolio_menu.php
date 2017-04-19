@@ -1,9 +1,9 @@
 <section>
   <div class="row" id="menuPortfolio">
-    <div class="" id="bulle3">
+    <div class="" id="bulle6">
       <a href="index.php?param_url=portfolio_journalisme">Journalisme</a>
     </div>
-    <div class="" id="bulle4">
+    <div class="" id="bulle7">
       <a href="index.php?param_url=portfolio_dev">Développement web</a>
     </div>
   </div>

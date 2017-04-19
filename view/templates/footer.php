@@ -1,4 +1,4 @@
-<div class="container">
+
     <footer class="">
         <div class="row" id="foot">
             <div class="col-xs-3">
@@ -23,4 +23,3 @@
             </div>
         </div>
     </footer>
-</div>

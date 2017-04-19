@@ -1,6 +1,11 @@
 a{
     text-decoration: none;
 }
+h4{
+    color: #8e2d2e;
+    font-size: 120%;
+    font-weight: bold;
+}
 /*---------------------- Page d'intro ----------------------------*/
 
 .row {
@@ -10,6 +15,7 @@ a{
 
 .content {
     position: relative;
+    height: 100%;
 }
 
 .intro {
@@ -61,7 +67,7 @@ a{
 }
 
 
-/*--------------------- ANIMATION INDEX HASHTAG ----------*/
+/*--------------------- ANIMATION INDEX MODALE HASHTAG ----------*/
 
 .modal-mask {
   position: fixed;
@@ -83,12 +89,15 @@ a{
 .modal-container {
   width: 300px;
   margin: 0px auto;
-  padding: 20px 30px;
+  padding: 10px;
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
   font-family: Helvetica, Arial, sans-serif;
+}
+.modal-container p {
+  padding: 8px;
 }
 
 .modal-header h3 {
@@ -142,9 +151,14 @@ a{
 
 #identity, #hashtag {
     text-align: center;
+    height: 100%;
 }
 #hashtag a {
     text-decoration: none;
+}
+#hashtag p{
+    font-weight: bold;
+    font-size: 150%;
 }
 #identity {
     background-color: #C2C0C2;
@@ -174,8 +188,8 @@ h2#job {
 
 #hashtag {
     background-color: #7f7f7f;
-    padding-top: 2%;
-    padding-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-right: 0;
     padding-left: 0;
     margin: 0;
@@ -193,6 +207,7 @@ h2#job {
 
 #contactez {
     background-color: #7f7f7f;
+    height: 555px;
 }
 
 .contactez {
@@ -210,16 +225,16 @@ h2#job {
 }
 
 #form {
-    padding-top: 3%;
+    padding-top: 5%;
     margin-bottom: 5%;
 }
 
 #form input {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 #form button {
-    margin-top: 2%;
+    margin-top: 5%;
     padding-top: 3%;
     padding-bottom: 7%;
     color: white;
@@ -227,12 +242,11 @@ h2#job {
     font-weight: bold;
 }
 
-
 /*----------------------- PAGE COMPETENCES ------------------------*/
 
 #menuCompet {
     background-color: #7f7f7f;
-    height: 520px;
+    height: 555px;
 }
 
 #bulle1 {
@@ -294,37 +308,45 @@ h2#job {
     color: white;
     font-weight: bolder;
 }
+/*------------------------------- PAGE DIPLOMES ---------------------*/
+.diplomes{
+    height: 555px;
+    background-color: #7f7f7f;
+}
 
 /*------------------------------- MENU PORTFOLIO -------------------*/
 
 #menuPortfolio{
     background-color: #7f7f7f;
-    height: 520px;
+    height: 555px;
 }
 #bulle3 {
     width: 180px;
     height: 180px;
-    margin-top: 15%;
-    padding-top: 16%;
-    margin-left: 50%;
+    margin-top: 5%;
+    padding-top: 14%;
+    margin-left: 5%;
+    font-size: 90%;
     background: #8e2d2e;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
 }
 #bulle3 a {
-    font-size: 120%;
-    padding-left: 45px;
+    padding-left: 2px;
     color: white;
     font-weight: bold;
     text-decoration: none;
+    display: block;
+    text-align: center;
 }
 #bulle4 {
     width: 180px;
     height: 180px;
     padding-top: 80px;
-    margin-left: 15%;
-    font-size: 120%;
+    margin-left: 40%;
+    font-size: 90%;
+    margin-top: -8%;
     background: #8e2d2e;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -336,11 +358,93 @@ h2#job {
     padding-left: 10px;
     font-weight: bold;
     text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#bulle5{
+    width: 180px;
+    height: 180px;
+    padding-top: 80px;
+    margin-left: 8%;
+    margin-top: -8%;
+    font-size: 90%;
+    background: #8e2d2e;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+#bulle5 a {
+    color: white;
+    padding-left: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#bulle6{
+    width: 180px;
+    height: 180px;
+    margin-top: 15%;
+    padding-top: 16%;
+    margin-left: 15%;
+    background: #8e2d2e;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+#bulle6 a {
+    font-size: 120%;
+    padding-left: 45px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#bulle7{
+    width: 180px;
+    height: 180px;
+    margin-top: 15%;
+    padding-top: 16%;
+    margin-left: 15%;
+    background: #8e2d2e;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+#bulle7 a {
+    font-size: 120%;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*------------------------- Portfolio -------------------*/
+.portDev{
+    background-color: #7f7f7f;
+    padding-bottom: 80px;
+}
+.portDev h4{
+    margin-top: 0px;
+    padding-top: 2%;
+}
+.portPresse{
+    background-color: #7f7f7f;
+}
+.blockPort{
+    padding: 3%;
+}
+.lienPort{
+    color: #8e2d2e;
+}
+#imgPort{
+    margin-top: 15px;
 }
 
 /*-------------------------- FOOTER -------------------------------*/
 footer {
     background-color: #C2C0C2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 /*.foot{
     position: relative;

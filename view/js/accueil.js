@@ -2,9 +2,6 @@
 Vue.component('modal', {
   template: '#modal-template'
 })
-
-
-// start app
 new Vue({
   el: '#app',
   data: {
@@ -59,3 +56,4 @@ new Vue({
     showModal: false
   }
 })
+// ---------------- Animations pour bulles diplômes

@@ -12,6 +12,7 @@
 
          <?php
              require_once "view/templates/header.php";
+             require_once "controller/Database.php";
 
              if (isset($_GET['param_url'])) {
 
