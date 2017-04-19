@@ -53,17 +53,14 @@ a{
     padding-left: 0;
     margin: 0;
     color: #8e2d2e;
-    font-size: 160%;
+    font-size: 90%;
     text-align: center;
 }
 .tag h2{
     font-weight: bold;
 }
-.tag p {
-    font-size: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
+
+
 /*--------------------- ANIMATION INDEX HASHTAG ----------*/
 
 .modal-mask {
@@ -114,38 +111,6 @@ a{
 .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-#hashtag{
-    z-index: 10;
-    position: relative;
-}
-.presse{
-
-}
-.com{
-
-}
-.social{
-
-}
-.photo{
-
-}
-.voyage{
-
-}
-.musique{
-
-}
-.sport{
-
-}
-.humour{
-
-}
-.polyvalence{
-
 }
 
 /*--- Keyframes pour bouton focus ---*/
@@ -218,9 +183,9 @@ h2#job {
 
 #hashtag p {
     color: #8e2d2e;
-    font-weight: bold;
+
     font-size: 160%;
-    line-height: 85%;
+    line-height: 100%;
 }
 
 
