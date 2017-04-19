@@ -133,6 +133,7 @@ h4{
 #identity, #hashtag {
     text-align: center;
     height: 100%;
+    border-bottom: solid 5px #A91212;
 }
 #hashtag a {
     text-decoration: none;
@@ -203,6 +204,9 @@ h2#job {
     font-weight: bold;
     text-align: center;
     font-size: 110%;
+}
+#iconssocial{
+    margin-left: 30%;
 }
 
 #form {
@@ -421,6 +425,7 @@ h2#job {
 /*-------------------------- FOOTER -------------------------------*/
 footer {
     background-color: white;
+    border-top: solid 5px #A91212;
     position: fixed;
     bottom: 0;
     width: 100%;
