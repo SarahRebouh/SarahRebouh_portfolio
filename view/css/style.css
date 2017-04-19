@@ -2,7 +2,7 @@ a{
     text-decoration: none;
 }
 h4{
-    color: #8e2d2e;
+    color: #A91212;
     font-size: 120%;
     font-weight: bold;
 }
@@ -51,17 +51,6 @@ h4{
     margin-top: 10%;
     margin-left: 22%;
 }
-.tag{
-    background-color: #7f7f7f;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    padding-right: 0;
-    padding-left: 0;
-    margin: 0;
-    color: #8e2d2e;
-    font-size: 90%;
-    text-align: center;
-}
 .tag h2{
     font-weight: bold;
 }
@@ -98,14 +87,6 @@ h4{
 }
 .modal-container p {
   padding: 8px;
-}
-
-.modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
-}
-.modal-body {
-  margin: 20px 0;
 }
 .modal-default-button {
   float: right;
@@ -161,7 +142,7 @@ h4{
     font-size: 150%;
 }
 #identity {
-    background-color: #C2C0C2;
+    background-color: white;
 }
 
 #name {
@@ -187,7 +168,7 @@ h2#job {
 }
 
 #hashtag {
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
     padding-top: 10%;
     padding-bottom: 10%;
     padding-right: 0;
@@ -196,7 +177,7 @@ h2#job {
 }
 
 #hashtag p {
-    color: #8e2d2e;
+    color: #A91212;
 
     font-size: 160%;
     line-height: 100%;
@@ -206,19 +187,19 @@ h2#job {
 /*--------------------------- PAGE CONTACT ------------------------*/
 
 #contactez {
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
     height: 555px;
 }
 
 .contactez {
-    color: #8e2d2e;
+    color: #A91212;
     font-weight: bold;
     text-align: center;
     font-size: 150%;
 }
 
 .choix {
-    color: #8e2d2e;
+    color: #A91212;
     font-weight: bold;
     text-align: center;
     font-size: 110%;
@@ -238,14 +219,14 @@ h2#job {
     padding-top: 3%;
     padding-bottom: 7%;
     color: white;
-    background-color: #8e2d2e;
+    background-color: #A91212;
     font-weight: bold;
 }
 
 /*----------------------- PAGE COMPETENCES ------------------------*/
 
 #menuCompet {
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
     height: 555px;
 }
 
@@ -253,9 +234,9 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 16%;
+    padding-top: 19%;
     margin-left: 15%;
-    background: #8e2d2e;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -273,7 +254,7 @@ h2#job {
     padding-top: 80px;
     margin-left: 45%;
     font-size: 120%;
-    background: #8e2d2e;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -291,8 +272,8 @@ h2#job {
     height: 100px;
 }
 .icons_dev{
-    background-color: #7f7f7f;
-    height: 520px;
+    background-color: #C2C0C2;
+    height: 545px;
     padding-top: 2%;
     padding-left: 2%;
 }
@@ -311,13 +292,13 @@ h2#job {
 /*------------------------------- PAGE DIPLOMES ---------------------*/
 .diplomes{
     height: 555px;
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
 }
 
 /*------------------------------- MENU PORTFOLIO -------------------*/
 
 #menuPortfolio{
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
     height: 555px;
 }
 #bulle3 {
@@ -327,7 +308,7 @@ h2#job {
     padding-top: 14%;
     margin-left: 5%;
     font-size: 90%;
-    background: #8e2d2e;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -347,7 +328,7 @@ h2#job {
     margin-left: 40%;
     font-size: 90%;
     margin-top: -8%;
-    background: #8e2d2e;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -364,11 +345,11 @@ h2#job {
 #bulle5{
     width: 180px;
     height: 180px;
-    padding-top: 80px;
+    padding-top: 70px;
     margin-left: 8%;
     margin-top: -8%;
     font-size: 90%;
-    background: #8e2d2e;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -385,9 +366,9 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 16%;
-    margin-left: 15%;
-    background: #8e2d2e;
+    padding-top: 19%;
+    margin-left: 45%;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
@@ -399,41 +380,39 @@ h2#job {
     font-weight: bold;
     text-decoration: none;
 }
-#bulle7{
+#bulle7 {
     width: 180px;
     height: 180px;
-    margin-top: 15%;
-    padding-top: 16%;
-    margin-left: 15%;
-    background: #8e2d2e;
+    padding-top: 80px;
+    margin-left: 1%;
+    font-size: 120%;
+    background: #A91212;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
 }
+
 #bulle7 a {
-    font-size: 120%;
-    padding-left: 10px;
     color: white;
+    padding-left: 10px;
     font-weight: bold;
     text-decoration: none;
 }
 /*------------------------- Portfolio -------------------*/
 .portDev{
-    background-color: #7f7f7f;
+    background-color: #C2C0C2;
     padding-bottom: 80px;
 }
 .portDev h4{
     margin-top: 0px;
     padding-top: 2%;
 }
-.portPresse{
-    background-color: #7f7f7f;
-}
 .blockPort{
     padding: 3%;
+    background-color: #C2C0C2;
 }
 .lienPort{
-    color: #8e2d2e;
+    color: #A91212;
 }
 #imgPort{
     margin-top: 15px;
@@ -441,15 +420,11 @@ h2#job {
 
 /*-------------------------- FOOTER -------------------------------*/
 footer {
-    background-color: #C2C0C2;
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-/*.foot{
-    position: relative;
-    z-index: 100;
-}*/
 footer .row {
     margin-right: 0;
     margin-left: 0;
@@ -462,16 +437,25 @@ footer a {
     font-size: 65%;
     margin: 0;
 }
-
 .icon {
     width: 50%;
 }
-
 #foot {
     padding-top: 2%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
-
+#foot #contact p{
+    padding-left: 5px;
+}
 #diplomes {
     padding-top: 5%;
+}
+#foot #diplomes p{
+    padding-top: 3px;
+}
+#foot #portfolio p{
+    padding-left: 3px;
+}
+.compet{
+    padding-left: 5px;
 }
