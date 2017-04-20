@@ -1,17 +1,16 @@
 <?php
 session_start();
 require_once'mailPerso.php';
-
-if(isset($_POST['button'])){
+if(isset($_POST['name'])){
     $err_name = false ;
     $err_mail = false ;
     $err_tel = false ;
     $err_message = false;
-
     $name = $_POST['name'];
     $mail = $_POST['mail'];
     $tel = $_POST['tel'];
     $message = $_POST['message'];
+
 
     if($name == "" ){
         $_SESSION['nameErr'] = "Merci d'indiquer votre nom et votre prénom.";
@@ -45,19 +44,19 @@ if(isset($_POST['button'])){
         $err_message = true ;
     }
     if($err_name == true || $err_mail == true || $err_tel == true || $err_message == true){
-        var_dump('Erreur dans l\'envoi du mail');
+        echo 'Erreur dans l\'envoi du mail';
 
     }else{
-        echo "ok";
+        echo 'great';
         $to = $mailPerso;
         $from = $_POST['mail'];
         $tel = $_POST['tel'];
         $name = $_POST['name'];
         $message = $_POST['message'];
+        $textmail = "Salut, ".$name." t'écris un mail avec ce message : ".$message.".<br /> Voici son numéro de téléphone :".$tel." et son mail ".$from."";
         $subject = "Salut Sarah !! Quelqu'un te contacte via ton appli !";
         $headers = "Coucou c'est moi";
         $headers = "Content-Type: text/html; charset=\"utf-8\"";
-        mail($to,$subject,$message,$headers);
+        mail($to,$subject,$textmail,$headers);
     }
-    header('Location: ../index.php?param_url=contact');
 }

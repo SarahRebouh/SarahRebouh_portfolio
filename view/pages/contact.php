@@ -12,34 +12,44 @@
       <a href="https://www.linkedin.com/in/sarah-rebouh-7542b725/"><img class="social" src="view/images/linked.png" alt=""></a>
     </div>
   </div>
-  <form class="" action="controller/verif_form.php" method="post">
+  <form id="formm" class="" action="controller/verif_form.php" method="post">
       <div class="form-group row col-md-offset-3" id="form">
+          <div class="modal-container" id="modaleOK">
+              <p>Merci, votre message a bien été envoyé ;-)</p>
+              <a href="index.php">Revenir à l'accueil</a>
+          </div>
+          <div class="modal-container" id="modaleFALSE">
+              <p>Votre message n'a pas été envoyé :-(</p>
+              <a href="index.php?param_url=contact">Veuillez recommencer</a>
+          </div>
           <div class="col-xs-12 col-md-8">
               <span class="error"> <?= $_SESSION['nameErr']  ?></span>
               <input type="name" class="form-control" name="name" placeholder="Nom, Prénom..." value="">
-
           </div>
+
           <div class="col-xs-12 col-md-8">
               <span class="error"><?= $_SESSION['phoneErr']  ?></span>
               <input type="tel" class="form-control" name="tel" placeholder="Téléphone..." value="">
-
           </div>
+
+
           <div class="col-xs-12 col-md-8">
               <span class="error"><?= $_SESSION['mailErr']  ?></span>
               <input type="mail" class="form-control" name="mail" placeholder="Email..." value="">
-
           </div>
+
           <div class="col-xs-12 col-md-8">
               <span class="error"><?= $_SESSION['messageErr']  ?></span>
               <textarea name="message" class="form-control" placeholder="Vore message..." rows="8" cols="80"></textarea>
-
           </div>
+
           <div class="col-xs-12 col-md-8">
               <button type="submit" class="form-control" id="button" name="button">Envoyer</button>
           </div>
       </div>
   </form>
 </div>
+
 
 <?php
 

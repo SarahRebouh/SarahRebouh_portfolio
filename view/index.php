@@ -6,8 +6,6 @@
 </div>
 <?php $_SESSION['anim'] = true; endif; ?>
 
-
-
 <div class="content">
     <div class="container">
 
