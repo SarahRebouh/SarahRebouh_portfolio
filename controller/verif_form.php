@@ -1,35 +1,63 @@
 <?php
 session_start();
+require_once'mailPerso.php';
 
-if (isset($_POST['button']))
-{
-  $err_pseudo = true;
-  $err_select_salon = true;
-  $err_noteDuSalon = true;
-  $err_avis = true;
-  $err_fichier = true;
+if(isset($_POST['button'])){
+    $err_name = false ;
+    $err_mail = false ;
+    $err_tel = false ;
+    $err_message = false;
 
-  if ($_POST['nom'] == ""){
+    $name = $_POST['name'];
+    $mail = $_POST['mail'];
+    $tel = $_POST['tel'];
+    $message = $_POST['message'];
 
-      $_SESSION['err_nom'] = "Merci d'indiquer votre nom.";
-      $err_nom = false;
-  }
-  if ($_POST['prenom'] == ""){
+    if($name == "" ){
+        $_SESSION['nameErr'] = "Merci d'indiquer votre nom et votre prénom.";
+        $err_name = true ;
+    }else{
+        if (!preg_match("/^[a-zA-Z ]*$/",$name)){
+            $_SESSION['nameErr'] = "Seuls les lettres et espaces sont autorisés.";
+            $err_name = true ;
+        }
+    }
+    if($mail == ""){
+        $err_mail = true ;
+        $_SESSION['mailErr'] = "J'ai besoin d'un email pour vous répondre.";
+    }else{
+        if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+            $err_mail = true ;
+            $_SESSION['mailErr'] = "Cet email n'est pas valide.";
+        }
+    }
+    if($tel == ""){
+        $err_tel = true ;
+        $_SESSION['phoneErr'] = "Merci d'indiquer votre numéro de téléphone.";
+    }else{
+        if(!is_numeric($tel)){
+            $err_tel = true ;
+            $_SESSION['phoneErr'] = "Ce numéro de téléphone n'est pas valide.";
+        }
+    }
+    if($message == "" ){
+        $_SESSION['messageErr'] = "Merci d'inscrire votre message.";
+        $err_message = true ;
+    }
+    if($err_name == true || $err_mail == true || $err_tel == true || $err_message == true){
+        var_dump('Erreur dans l\'envoi du mail');
 
-      $_SESSION['err_prenom'] = "Merci d'indiquer votre nom.";
-      $err_prenom = false;
-  }
-  if($_POST["mail"] == "")
-  {
-      $_SESSION["err_mail"] = "Merci d'indiquer votre adresse mail." ;
-      $err_mail = false;
-  }
-  if($_POST["message"] == "")
-  {
-      $_SESSION["err_message"] = "Merci de taper votre message." ;
-      $err_message = false;
-  }
-  if($err_nom == true && $err_prenom == true && $err_mail == true && $err_message == true){
-      
-  }
- }
+    }else{
+        echo "ok";
+        $to = $mailPerso;
+        $from = $_POST['mail'];
+        $tel = $_POST['tel'];
+        $name = $_POST['name'];
+        $message = $_POST['message'];
+        $subject = "Salut Sarah !! Quelqu'un te contacte via ton appli !";
+        $headers = "Coucou c'est moi";
+        $headers = "Content-Type: text/html; charset=\"utf-8\"";
+        mail($to,$subject,$message,$headers);
+    }
+    header('Location: ../index.php?param_url=contact');
+}

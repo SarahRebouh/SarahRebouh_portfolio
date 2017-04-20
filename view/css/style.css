@@ -170,7 +170,7 @@ h2#job {
 
 #hashtag {
     background-color: #C2C0C2;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
     padding-right: 0;
     padding-left: 0;
@@ -189,7 +189,7 @@ h2#job {
 
 #contactez {
     background-color: #C2C0C2;
-    height: 555px;
+    height: 800px;
 }
 
 .contactez {
@@ -206,7 +206,7 @@ h2#job {
     font-size: 110%;
 }
 #iconssocial{
-    margin-left: 30%;
+    margin-left: 33%;
 }
 
 #form {
@@ -238,7 +238,7 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 19%;
+    padding-top: 16%;
     margin-left: 15%;
     background: #A91212;
     -moz-border-radius: 100px;
@@ -370,7 +370,7 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 19%;
+    padding-top: 16%;
     margin-left: 45%;
     background: #A91212;
     -moz-border-radius: 100px;
@@ -411,9 +411,11 @@ h2#job {
     margin-top: 0px;
     padding-top: 2%;
 }
+.portJournalisme{
+    background-color: #C2C0C2;
+}
 .blockPort{
     padding: 3%;
-    background-color: #C2C0C2;
 }
 .lienPort{
     color: #A91212;

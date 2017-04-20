@@ -56,4 +56,10 @@ new Vue({
     showModal: false
   }
 })
+new Vue({
+  el: '#app9',
+  data: {
+    showModal: false
+  }
+})
 // ---------------- Animations pour bulles diplômes
