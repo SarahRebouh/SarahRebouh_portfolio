@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $(".error").html("");
+    $(".error").html("");                                               // J'efface toutes les erreurs
     $("#formm").on("submit", function(e){                             //Generation Ajax pour afficher les popups
         e.preventDefault();
-        var donnee = $(this).serialize();
+        var donnee = $(this).serialize();                             // Je récupère toutes les données de mon formulaire
         $.ajax({
             type : "POST",
             data: donnee,

@@ -6,10 +6,10 @@
   </div>
   <div class="row">
     <div class="col-xs-2 col-xs-offset-4" id="iconssocial">
-      <a href="https://twitter.com/srebouh"><img class="social" src="view/images/twitter.png" alt=""></a>
+      <a href="https://twitter.com/srebouh" target="_blank"><img class="social" src="view/images/twitter.png" alt=""></a>
     </div>
     <div class="col-xs-2">
-      <a href="https://www.linkedin.com/in/sarah-rebouh-7542b725/"><img class="social" src="view/images/linked.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/sarah-rebouh-7542b725/" target="_blank"><img class="social" src="view/images/linked.png" alt=""></a>
     </div>
   </div>
   <form id="formm" class="" action="controller/verif_form.php" method="post">

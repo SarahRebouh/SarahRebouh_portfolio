@@ -1,11 +1,3 @@
-<?php if (!isset($_SESSION['anim'])):?>
-<div class="intro">
-  <img class="col-xs-6" src="view/images/gaucheHome.png" alt="" id="gauche">
-  <img class="col-xs-5" src="view/images/droiteHome.png" alt="" id="droite">
-  <img src="view/images/focus.png" alt="" id="focus" class="">
-</div>
-<?php $_SESSION['anim'] = true; endif; ?>
-
 <div class="content">
     <div class="container">
 

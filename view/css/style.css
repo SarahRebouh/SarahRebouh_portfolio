@@ -28,8 +28,8 @@ h4{
     left: 0;
     z-index: 3;
     height: 100%;
-    width: 60%;
-    margin-top: -68px;
+    width: 70%;
+    margin-top: -16%;
     padding-left: 0px;
 }
 
@@ -39,7 +39,7 @@ h4{
     right: 0;
     z-index: 4;
     height: 100%;
-    width: 83%;
+    width: 80%;
     padding-right: 0;
 }
 
@@ -256,7 +256,7 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 16%;
+    padding-top: 80px;
     margin-left: 15%;
     background: #A91212;
     -moz-border-radius: 100px;
@@ -295,7 +295,7 @@ h2#job {
 }
 .icons_dev{
     background-color: #C2C0C2;
-    height: 545px;
+    height: 600px;
     padding-top: 2%;
     padding-left: 2%;
 }
@@ -313,10 +313,9 @@ h2#job {
 }
 /*------------------------------- PAGE DIPLOMES ---------------------*/
 .diplomes{
-    height: 575px;
+    height: 580px;
     background-color: #C2C0C2;
 }
-
 /*------------------------------- MENU PORTFOLIO -------------------*/
 
 #menuPortfolio{
@@ -327,7 +326,7 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 5%;
-    padding-top: 14%;
+    padding-top: 60px;
     margin-left: 5%;
     font-size: 90%;
     background: #A91212;
@@ -388,7 +387,7 @@ h2#job {
     width: 180px;
     height: 180px;
     margin-top: 15%;
-    padding-top: 16%;
+    padding-top: 80px;
     margin-left: 45%;
     background: #A91212;
     -moz-border-radius: 100px;

@@ -1,4 +1,10 @@
-<?php session_start(); ?>
+
+<?php
+header("Access-Control-Allow-Origin: *"); //Autorise l'appel de ce fichier depuis n'importe quelle URL
+       header("Access-Control-Allow-Methods: *");
+       header("Access-Control-Allow-Headers: content-type");
+session_start(); ?>
+
 <!DOCTYPE html>
 <html>
     <head>
