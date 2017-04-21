@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#formm").on("submit", function(e){                             //Generation Ajax pour affichage contenu article
+    $(".error").html("");
+    $("#formm").on("submit", function(e){                             //Generation Ajax pour afficher les popups
         e.preventDefault();
         var donnee = $(this).serialize();
         $.ajax({
@@ -11,11 +12,17 @@ $(document).ready(function() {
                     $('#modaleOK').css('display', 'block');
                     $('#modaleFALSE').css('display', 'none');
                     $('input').remove();
+                    $(".error").html("");
                     $('textarea').remove();
                     $('button').remove();
                 }
                 else{
-                    
+                    $(".error").html("");
+                    var error = jQuery.parseJSON(e);               //Parse du JSON pour descendre dans le tableau
+                    $("#errorTel").html(error.tel);
+                    $("#errorName").html(error.name);
+                    $("#errorMail").html(error.mail);
+                    $("#errorMess").html(error.message);
                 }
             }
         });

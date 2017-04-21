@@ -23,23 +23,23 @@
               <a href="index.php?param_url=contact">Veuillez recommencer</a>
           </div>
           <div class="col-xs-12 col-md-8">
-              <span class="error"> <?= $_SESSION['nameErr']  ?></span>
+              <span class="error" id="errorName"> <?= $_SESSION['nameErr']  ?></span>
               <input type="name" class="form-control" name="name" placeholder="Nom, Prénom..." value="">
           </div>
 
           <div class="col-xs-12 col-md-8">
-              <span class="error"><?= $_SESSION['phoneErr']  ?></span>
+              <span class="error" id="errorTel"><?= $_SESSION['phoneErr']  ?></span>
               <input type="tel" class="form-control" name="tel" placeholder="Téléphone..." value="">
           </div>
 
 
           <div class="col-xs-12 col-md-8">
-              <span class="error"><?= $_SESSION['mailErr']  ?></span>
+              <span class="error" id="errorMail"><?= $_SESSION['mailErr']  ?></span>
               <input type="mail" class="form-control" name="mail" placeholder="Email..." value="">
           </div>
 
           <div class="col-xs-12 col-md-8">
-              <span class="error"><?= $_SESSION['messageErr']  ?></span>
+              <span class="error" id="errorMess"><?= $_SESSION['messageErr']  ?></span>
               <textarea name="message" class="form-control" placeholder="Vore message..." rows="8" cols="80"></textarea>
           </div>
 
